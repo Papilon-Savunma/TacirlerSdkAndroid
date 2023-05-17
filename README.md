@@ -81,7 +81,7 @@ Papilon DigitalOnBoarding is an android app sdk.
     <i>
 
     ```JAVA
-        implementation 'com.github.Papilon-Savunma:PapilonDobAndroid:v.0.1.17'
+        implementation files('../app/libs/PapilonDobSdk-v.0.0.1.aar')
     ```
     </i>
      
@@ -169,7 +169,7 @@ Papilon DigitalOnBoarding is an android app sdk.
 ## Dependencies
 <hr>
 
-* <b> Minimum SDK: 23</b>
+* <b> Minimum SDK: 24</b>
 * <b> Grade Version: 7.2.2</b>
 * <b> Target SDK: 33</b>
 * <b> Java Version: 1.8</b>
@@ -209,6 +209,124 @@ Papilon DigitalOnBoarding is an android app sdk.
 
     </i>
 
+<br>
+
+* <b><i>You can see an example project and "PapilonDobSdk-v.0.0.1.aar" folder in this sdk</i></b>
+
+<br><br>
+<div align='center'><b> TEST APP and SDK FLOWS </b></div>
+<br><br>
+<div align='center'><i>Test App First Page</i></div>
+<div align='center'><img src="./screenshots/1.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>1- WelcomeKvkk</i></div>
+<div align='center'><img src="./screenshots/2.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>WelcomeKvkk</i></div>
+<div align='center'><img src="./screenshots/3.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>2- MasakActivity</i></div>
+<div align='center'><img src="./screenshots/4.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>MasakActivity</i></div>
+<div align='center'><img src="./screenshots/5.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>3- NotificationChannel</i></div>
+<div align='center'><img src="./screenshots/6.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>NotificationChannel</i></div>
+<div align='center'><img src="./screenshots/7.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>4- NfcController</i></div>
+<div align='center'><img src="./screenshots/8.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>5- UserForm</i></div>
+<div align='center'><img src="./screenshots/9.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>6- FoundFormActivity</i></div>
+<div align='center'><img src="./screenshots/10.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>7- PhoneForm</i></div>
+<div align='center'><img src="./screenshots/11.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>8- AuthPhoneNumber</i></div>
+<div align='center'><img src="./screenshots/13.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>9- MrzScanner</i></div>
+<div align='center'><img src="./screenshots/14.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>MrzScanner</i></div>
+<div align='center'><img src="./screenshots/15.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>10- NfcReader</i></div>
+<div align='center'><img src="./screenshots/16.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>11- FaceVerify</i></div>
+<div align='center'><img src="./screenshots/17.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>FaceVerify</i></div>
+<div align='center'><img src="./screenshots/18.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>FaceVerify</i></div>
+<div align='center'><img src="./screenshots/19.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>12- NviAddressAuth</i></div>
+<div align='center'><img src="./screenshots/20.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>13- FirstResultPage</i></div>
+<div align='center'><img src="./screenshots/21.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>14- WaitingRoom</i></div>
+<div align='center'><img src="./screenshots/23.jpg" style="width: 30%; height:50%;" /></div>
+
+
+<br>
+<div align='center'><i>WaitingRoom</i></div>
+<div align='center'><img src="./screenshots/24.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>15- MeetOnJitsi</i></div>
+<div align='center'><img src="./screenshots/25.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>MeetOnJitsi</i></div>
+<div align='center'><img src="./screenshots/26.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>MeetOnJitsi</i></div>
+<div align='center'><img src="./screenshots/27.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>16- MeetResult</i></div>
+<div align='center'><img src="./screenshots/28.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>MeetResult</i></div>
+<div align='center'><img src="./screenshots/29.jpg" style="width: 30%; height:50%;" /></div>
+
+<br>
+<div align='center'><i>17- ActiveUserActivity</i></div>
+<div align='center'><img src="./screenshots/30.jpg" style="width: 30%; height:50%;" /></div>
 
 
 
