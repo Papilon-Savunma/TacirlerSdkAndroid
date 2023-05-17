@@ -166,6 +166,7 @@ Papilon DigitalOnBoarding is an android app sdk.
     <b> Note: Important Field For Private Usage </b>
     
 <br>
+
 ## Dependencies
 <hr>
 
@@ -177,6 +178,7 @@ Papilon DigitalOnBoarding is an android app sdk.
 <br>
 
 <br>
+
 ## Used Permissions
 <hr>
 
@@ -229,8 +231,11 @@ Papilon DigitalOnBoarding is an android app sdk.
 * <b><i>You can see an example project and "PapilonDobSdk-v.0.0.1.aar" folder in this sdk</i></b>
 
 <br><br>
-<div align='center'><b> TEST APP and SDK FLOWS </b></div>
-<br><br>
+
+## Test APP and SDK FLOWS
+
+<hr>
+
 <div align='center'><i>Test App First Page</i></div>
 <div align='center'><img src="./screenshots/1.jpg" style="width: 30%; height:50%;" /></div>
 
