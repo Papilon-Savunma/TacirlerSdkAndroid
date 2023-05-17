@@ -176,6 +176,21 @@ Papilon DigitalOnBoarding is an android app sdk.
 
 <br>
 
+<br>
+## Used Permissions
+<hr>
+
+* <b> android.permission.ACCESS_WIFI_STATE</b>
+* <b> android.permission.ACCESS_NETWORK_STATE</b>
+* <b> android.permission.RECEIVE_SMS</b>
+* <b> android.permission.INTERNET</b>
+* <b> android.permission.NFC</b>
+* <b> android.permission.READ_SMS</b>
+* <b> android.permission.RECORD_AUDIO</b>
+
+
+<br>
+
 ## Usage
 <hr>
 
@@ -328,6 +343,46 @@ Papilon DigitalOnBoarding is an android app sdk.
 <div align='center'><i>17- ActiveUserActivity</i></div>
 <div align='center'><img src="./screenshots/30.jpg" style="width: 30%; height:50%;" /></div>
 
+<br><br>
+
+- `x` buttons on the screen is to `dismiss` the SDK. Also, when cycle ends, `home` button is to `dismiss` SDK.
+
+<br><br>
+
+## API Usage
+**NOTE:** This is for developers who develop this SDK.
+
+API swagger address: [Tacirler API](https://umsapi.tacirler.com.tr:81/apidocs/#/)
+
+- `user/active_application`: Post request that checks wheter there is active client application for KYC process. If there is, app navigates to `ActiveUserActivity`. If there is not app stays in `WelcomeKvkk`.
+
+- `user/add`: Post request to send form data taken from `UserForm` to API.
+
+- `user/job_list`: Get request for job list for form, in `WelcomeKvkk`
+
+- `user/city_list`: Get request for city list for form, in `WelcomeKvkk`
+
+- `user/survey`: Post request to send questionnaire result to API in `FoundFormActivity`.
+
+- `user/otp`: Post request to send phone number to API in `PhoneForm`.
+
+- `user/retake_otp`: Get request to get code when 180 second ends, in `PhoneForm`.
+
+- `user/verify_otp`: Post request to send OTP code to API in `AuthPhoneNumber`.
+
+- `user/nfc`: Post request to send data taken from nfc read to API in `RequestNfcValid`.
+
+- `user/face`: Post request to send face photo to API in `FaceVerify`. API compares the NFC photo that is sent before with the face photo.
+
+- `user/address`: Post request to send barcode text to API in `BarcodeScanner`.
+
+- `address/verify_address`: Get request that takes `adresNo` as querry parameter to verify address from `E-devlet Adres No`, in `VerifyNviAddress`.
+
+- `user/video_call`: Get request to get video call room url in  `MeetOnJitsi`.
+
+- `user/terminate_call`: Get request to recall when video call is terminated, in `MeetOnJitsi`.
 
 
 
+## Author
+Papilon Savunma
