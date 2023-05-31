@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".BaseActivity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/topView"
@@ -24,7 +24,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/ubuntu_regular"
         android:layout_gravity="center"
         android:text="Merhaba, \n\n Hazır olduğunuzda DigitalOnBoarding sürecini başlatabilirsiniz.\n\n DOB;\n kendi içerisinde barındırdığı gelişmiş modülleri ile güvenli şekilde uçtan uca müşteri edinme süreci sunar."
         android:gravity="center"
@@ -42,9 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/round_btn"
         android:enabled="true"
-        android:fontFamily="@font/ubuntu_bold"
         android:text="BAŞLA"
         android:textColor="#FFFFFF"
         android:layout_marginLeft="20dp"

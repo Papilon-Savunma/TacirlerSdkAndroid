@@ -15,7 +15,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.papilon.tacirlersdk"
+        applicationId "com.papilon.tacirlertestapp"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -100,8 +100,9 @@ dependencies {
     //----------------
 
 
+
     // IMPORT AAR FILE METHOD ----------
-    implementation files('../app/libs/PapilonDobSdk-v.0.0.1.aar')
+    implementation files('../app/libs/PapilonDobSdk-v.0.0.10.aar')
     //----------------
 }
 

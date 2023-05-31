@@ -81,7 +81,7 @@ Papilon DigitalOnBoarding is an android app sdk.
     <i>
 
     ```JAVA
-        implementation files('../app/libs/PapilonDobSdk-v.0.0.1.aar')
+        implementation files('../app/libs/PapilonDobSdk-v.0.0.10.aar')
     ```
     </i>
      
@@ -167,6 +167,50 @@ Papilon DigitalOnBoarding is an android app sdk.
     
 <br>
 
+<br>
+
+* <b> 4- AndroidManifes.xml </b>
+    <br>
+
+    <i>
+
+    ```JAVA
+        <?xml version="1.0" encoding="utf-8"?>
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            package="com.papilon.tacirlersdk">
+
+            <application
+                android:allowBackup="true"
+                android:dataExtractionRules="@xml/data_extraction_rules"
+                android:fullBackupContent="@xml/backup_rules"
+                android:icon="@mipmap/ic_launcher"
+                android:label="@string/app_name"
+                android:roundIcon="@mipmap/ic_launcher_round"
+                android:supportsRtl="true"
+                android:theme="@style/pap_AppTheme"
+                tools:replace="android:theme"
+                tools:targetApi="31">
+                <activity
+                    android:name=".BaseActivity"
+                    android:exported="true">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>
+            </application>
+
+        </manifest>
+    ```
+
+    </i>
+
+    <b> Note: You may need to support multiple themes in here.</b>
+    
+<br>
+
 ## Dependencies
 <hr>
 
@@ -216,19 +260,19 @@ Papilon DigitalOnBoarding is an android app sdk.
     <i>
 
     ```JAVA
+        Intent intent = new Intent(MainActivity.this, pap_WelcomeKvkk.class);
+        intent.putExtra("calling_package", this.getPackageName());
+        intent.putExtra("calling_class", this.getClass().getName());
+        intent.putExtra("from_main", "true");
 
-    Intent intent = new Intent(BaseActivity.this, WelcomeKvkk.class);
-    intent.putExtra("calling_package", "com.papilon.tacirlersdk");
-    intent.putExtra("calling_class", "com.papilon.tacirlersdk.BaseActivity");
-    intent.putExtra("from_main", "true");
-    startActivity(intent);
+        startActivity(intent);
     ```
 
     </i>
 
 <br>
 
-* <b><i>You can see an example project and "PapilonDobSdk-v.0.0.1.aar" folder in this sdk</i></b>
+* <b><i>You can see an example project and "PapilonDobSdk-v.0.0.10.aar" folder in this sdk</i></b>
 
 <br><br>
 
