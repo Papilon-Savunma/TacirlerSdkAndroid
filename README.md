@@ -81,7 +81,7 @@ Papilon DigitalOnBoarding is an android app sdk.
     <i>
 
     ```JAVA
-        implementation files('../app/libs/PapilonDobSdk-v.0.0.23.aar')
+        implementation files('../app/libs/PapilonDobSdk-v.0.0.45.aar')
     ```
     </i>
      
@@ -272,7 +272,7 @@ Papilon DigitalOnBoarding is an android app sdk.
 
 <br>
 
-* <b><i>You can see an example project and "PapilonDobSdk-v.0.0.23.aar" folder in this sdk</i></b>
+* <b><i>You can see an example project and "PapilonDobSdk-v.0.0.45.aar" folder in this sdk</i></b>
 
 <br><br>
 
