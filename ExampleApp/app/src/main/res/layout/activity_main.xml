@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".MainActivity">
-
+0
     <ImageView
         android:id="@+id/topView"
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Merhaba, \n\n Hazır olduğunuzda DigitalOnBoarding sürecini başlatabilirsiniz.\n\n DOB;\n kendi içerisinde barındırdığı gelişmiş modülleri ile güvenli şekilde uçtan uca müşteri edinme süreci sunar."
+        android:text="Merhaba, \n\n Hazır olduğunuzda uzaktan müşteri olma sürecinizi başlatabilirsiniz.\n\n Bu uygulama;\n kendi içerisinde barındırdığı gelişmiş modülleri ile güvenli şekilde uçtan uca doğrulama süreci sunar."
         android:gravity="center"
         android:textSize="21dp"
         android:textColor="@color/black"
@@ -42,6 +42,7 @@
         android:layout_centerHorizontal="true"
         android:enabled="true"
         android:text="BAŞLA"
+        android:background="@color/purple_700"
         android:textColor="#FFFFFF"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
